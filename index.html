@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0%;
+            padding: 0%;
+        }
+        .navbar{
+            background-color: black;
+            color: antiquewhite;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items:center;
+
+        }
+        .navbrand{
+
+        }
+        .navul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .listitem{
+            margin: 0px 10px;
+
+        }
+        .navlinks{
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 20px;
+            
+
+        }
+        .searchbar{
+            margin-right: 10px;
+
+
+        }
+        .searchinput{
+            border-radius: 7px;
+            padding: 3px 15px;
+
+            
+  
+        }
+        .navbtn{
+            background-color: rgb(76, 76, 160);
+            color: aliceblue;
+            padding: 3px;
+            border-radius:7px;
+            border-color:2px solid rgb(89, 89, 161);
+            
+
+        }
+        .navbtn:hover{
+            background-color: rgb(103, 103, 163);
+            color: aliceblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="navbrand">Sana Safinaz</h1>
+        <ul class="navul">
+            <li class="listitem"><a class="navlinks"href="">Home</a></li>
+            <li class="listitem"><a class="navlinks"href="">about</a></li>
+            <li class="listitem"><a class="navlinks"href="">contact</a></li>
+            <li class="listitem"><a class="navlinks"href="">product</a></li>
+            <li class="listitem"><a class="navlinks"href="">services</a></li>
+        </ul>
+        <div class="searchbar">
+            <input type="text" class="searchinput">
+            <button class="navbtn">search</button>
+        </div>
+
+    </div>
+</body>
+</html>
